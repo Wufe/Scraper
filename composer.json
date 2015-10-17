@@ -1,0 +1,14 @@
+{
+    "name": "wufe/scraper",
+    "description": "Test of a generic scraper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wufe",
+            "email": "wufe92@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^2.7"
+    }
+}
