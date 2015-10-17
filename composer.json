@@ -9,6 +9,12 @@
         }
     ],
     "require": {
-        "symfony/dom-crawler": "^2.7"
+        "symfony/dom-crawler": "^2.7",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scraper\\": "src/"
+        }
     }
 }
