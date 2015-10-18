@@ -1,9 +1,10 @@
 <?php
 
 	namespace Scraper\Controllers;
-	use Scraper\Downloader 	as Downloader;
-	use Scraper\Log 		as Log;
-	use Scraper\Parser 		as Parser;
+	use Scraper\Middleware\Downloader;
+	use Scraper\Middleware\Log;
+	use Scraper\Middleware\Parser;
+	use Scraper\Middleware\Crawler;
 	use Symfony\Component\DomCrawler\Crawler as DomCrawler;
 
 	class Main{
@@ -19,17 +20,10 @@
 				exit();
 			}
 
-			Main::crawl( (string)$source );
+			Crawler::crawl( (string)$source );
 		}
 
-		// Crawl the source into a DOM object
-		public static function crawl( $source ){
-			$crawler = new DomCrawler( $source );
-			Log::log( "Listing node attributes" );
-			
-			$node_tree = Parser::parse( $crawler );
-			file_put_contents( "tree", print_r( $node_tree, true ) );
-		}
+		
 
 
 	}

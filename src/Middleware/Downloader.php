@@ -1,8 +1,8 @@
 <?php
 
-	namespace Scraper;
+	namespace Scraper\Middleware;
 	use \GuzzleHttp\Client  as Guzzle;
-	use \Scraper\Log 		as Log;
+	use \Scraper\Middleware\Log;
 
 	class Downloader{
 		

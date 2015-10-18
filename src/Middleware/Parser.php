@@ -1,6 +1,7 @@
 <?php
 
-	namespace Scraper;
+	namespace Scraper\Middleware;
+	use Scraper\Middleware\Log;
 
 	class Parser{
 
@@ -19,7 +20,7 @@
 
 					
 					// Logging node by name with a tree structure
-					$log_string = "[".$deep."] ";
+					$log_string = "[".$deep."]".( strlen( $deep."" ) < 2 ? " " : "" );
 					if( $deep == 0 ){
 						$log_string .= $nodeName;
 					}else{
