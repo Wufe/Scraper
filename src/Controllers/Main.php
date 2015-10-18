@@ -38,7 +38,7 @@
 					$node_obj = [];
 					$nodeName 	= $domElement->nodeName;
 					$nodeValue 	= $domElement->nodeValue;
-					$tagName 	= $domElement->tagName;
+					$tagName 	= isset( $domElement->tagName ) ? $domElement->tagName : "";
 					$parentNode = $domElement->parentNode;
 					$node_obj = [ 
 						'name' 		=> $nodeName,
