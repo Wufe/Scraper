@@ -51,7 +51,7 @@
 					if( $deep > 1 ){
 						$tmp_string = "|";
 						$tdeep = 0;
-						while( $tdeep < $deep ){
+						while( $tdeep < $deep-1 ){
 							$tmp_string .= str_repeat( " ", 4 )."|";
 							$tdeep++;
 						}
