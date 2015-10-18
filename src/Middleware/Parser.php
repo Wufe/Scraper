@@ -20,12 +20,12 @@
 
 					$nodeName 	= $domElement->nodeName;
 					$nodeValue 	= $domElement->nodeValue;
-					$tagName 	= isset( $domElement->tagName ) ? $domElement->tagName : "";
+					$tagName 	= isset( $domElement->tagName ) ? $domElement->tagName : false;
 					$parentNode = $domElement->parentNode;
 
 					// Generation of an absolute xPath
 					$myPath = "";
-					if( $tagName != "" ){
+					if( isset( $tagName ) ){
 						if( !isset( $elements_count[ $tagName ] ) ){
 							$elements_count[ $tagName ] = 1;
 						}else{
@@ -58,10 +58,12 @@
 
 					$node_obj = [ 
 						'name' 		=> $nodeName,
-						'value' 	=> $nodeValue,
-						'tag'		=> $tagName,
-						'parent'	=> $parentNode
+						'value' 	=> "",//$nodeValue,
+						'parent'	=> "",//$parentNode
 					];
+					if( $tagName !== false ){
+						$node_obj[ 'tag' ] = $tagName;
+					}
 					
 					$children 	= Parser::parse( $domElement->childNodes, $deep+1, $myPath );
 					if( !!$children ){
@@ -75,6 +77,62 @@
 				return $ret_obj;	
 			}else{
 				return false;
+			}
+		}
+
+		// here we make the augmented parse tree that will eventually add relative xPath and sum of the content
+		public static function augment( $node ){
+			$node[ 'components' ] 	= Parser::get_components( $node );
+			// rxPath stands for "relative XPath"
+			$node[ 'rxPath' ] 		= Parser::get_relative_xpath( $node );
+			$new_children = [];
+			if( @!!$node[ 'children' ] ){
+				foreach( $node[ 'children' ] as $child ){
+					$child 	= Parser::augment( $child );
+					$new_children[] = $child;
+				}
+				unset( $node[ 'children' ] );
+				$node[ 'children' ] = $new_children;
+			}
+			return $node;
+			
+		}
+
+		public static function get_components( $node ){;
+			if( @!$node[ 'tag' ] ){
+				$ret_val = "[".$node[ 'name' ]."]";
+			}else if( @!$node[ 'children' ] ){
+				$ret_val = "[".$node[ 'name' ]."]";
+			}else{
+				$nodes = [];
+				foreach( $node[ 'children' ] as $child ){
+					$nodes[] = Parser::get_components( $child );
+				}
+				$result = $node[ 'tag' ]."[".implode( "+", $nodes )."]";
+				$ret_val = $result;
+			}
+			return $ret_val;
+		}
+
+		// function to help get the relative xpath of a node
+		public static function get_relative_xpath( $node ){
+			if( @!$node[ 'tag' ] ){
+				return "";
+			}else if( @!$node[ 'children' ] ){
+				return $node[ 'tag' ];
+			}else{
+				$nodes = [];
+				foreach( $node[ 'children' ] as $child ){
+					$child_xpath = Parser::get_relative_xpath( $child );
+					if( $child_xpath != "" ){
+						$nodes[] = $child_xpath;
+					}
+					if( count( $nodes ) > 0 ){
+						return $node[ 'tag' ]."[".implode( "+", $nodes )."]";
+					}else{
+						return $node[ 'tag' ];
+					}
+				}
 			}
 		}
 

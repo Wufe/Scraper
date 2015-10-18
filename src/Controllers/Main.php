@@ -21,6 +21,13 @@
 			}
 
 			Crawler::crawl( (string)$source );
+
+			/*$cat = [];
+			if( @!!"" ){
+				echo "true";
+			}else{
+				echo "false";
+			}*/
 		}
 
 		

@@ -1,0 +1,367 @@
+Array
+(
+    [0] => Array
+        (
+            [name] => html
+            [value] => 
+            [parent] => 
+            [tag] => html
+            [children] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => head
+                            [value] => 
+                            [parent] => 
+                            [tag] => head
+                            [children] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [name] => title
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => title
+                                            [xPath] => descendant-or-self::html/head/title
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=1]
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=2]
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=3]
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=4]
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=5]
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=6]
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=7]
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=8]
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => script
+                                            [xPath] => descendant-or-self::html/head/script[position()=9]
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [name] => link
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => link
+                                            [xPath] => descendant-or-self::html/head/link
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [name] => style
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => style
+                                            [children] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => #cdata-section
+                                                            [value] => 
+                                                            [parent] => 
+                                                            [xPath] => descendant-or-self::html/head/style/
+                                                        )
+
+                                                )
+
+                                            [xPath] => descendant-or-self::html/head/style
+                                        )
+
+                                )
+
+                            [xPath] => descendant-or-self::html/head
+                        )
+
+                    [1] => Array
+                        (
+                            [name] => body
+                            [value] => 
+                            [parent] => 
+                            [tag] => body
+                            [children] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [name] => #text
+                                            [value] => 
+                                            [parent] => 
+                                            [xPath] => descendant-or-self::html/body/
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [name] => nav
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => nav
+                                            [children] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => ul
+                                                            [value] => 
+                                                            [parent] => 
+                                                            [tag] => ul
+                                                            [children] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [name] => li
+                                                                            [value] => 
+                                                                            [parent] => 
+                                                                            [tag] => li
+                                                                            [children] => Array
+                                                                                (
+                                                                                    [0] => Array
+                                                                                        (
+                                                                                            [name] => a
+                                                                                            [value] => 
+                                                                                            [parent] => 
+                                                                                            [tag] => a
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                    [0] => Array
+                                                                                                        (
+                                                                                                            [name] => #text
+                                                                                                            [value] => 
+                                                                                                            [parent] => 
+                                                                                                            [xPath] => descendant-or-self::html/body/nav/ul/li[position()=1]/a/
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [xPath] => descendant-or-self::html/body/nav/ul/li[position()=1]/a
+                                                                                        )
+
+                                                                                )
+
+                                                                            [xPath] => descendant-or-self::html/body/nav/ul/li[position()=1]
+                                                                        )
+
+                                                                    [1] => Array
+                                                                        (
+                                                                            [name] => #text
+                                                                            [value] => 
+                                                                            [parent] => 
+                                                                            [xPath] => descendant-or-self::html/body/nav/ul/
+                                                                        )
+
+                                                                    [2] => Array
+                                                                        (
+                                                                            [name] => li
+                                                                            [value] => 
+                                                                            [parent] => 
+                                                                            [tag] => li
+                                                                            [children] => Array
+                                                                                (
+                                                                                    [0] => Array
+                                                                                        (
+                                                                                            [name] => a
+                                                                                            [value] => 
+                                                                                            [parent] => 
+                                                                                            [tag] => a
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                    [0] => Array
+                                                                                                        (
+                                                                                                            [name] => #text
+                                                                                                            [value] => 
+                                                                                                            [parent] => 
+                                                                                                            [xPath] => descendant-or-self::html/body/nav/ul/li[position()=2]/a/
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [xPath] => descendant-or-self::html/body/nav/ul/li[position()=2]/a
+                                                                                        )
+
+                                                                                )
+
+                                                                            [xPath] => descendant-or-self::html/body/nav/ul/li[position()=2]
+                                                                        )
+
+                                                                    [3] => Array
+                                                                        (
+                                                                            [name] => #text
+                                                                            [value] => 
+                                                                            [parent] => 
+                                                                            [xPath] => descendant-or-self::html/body/nav/ul/
+                                                                        )
+
+                                                                )
+
+                                                            [xPath] => descendant-or-self::html/body/nav/ul
+                                                        )
+
+                                                )
+
+                                            [xPath] => descendant-or-self::html/body/nav
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [name] => div
+                                            [value] => 
+                                            [parent] => 
+                                            [tag] => div
+                                            [children] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => #text
+                                                            [value] => 
+                                                            [parent] => 
+                                                            [xPath] => descendant-or-self::html/body/div/
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [name] => div
+                                                            [value] => 
+                                                            [parent] => 
+                                                            [tag] => div
+                                                            [children] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [name] => #text
+                                                                            [value] => 
+                                                                            [parent] => 
+                                                                            [xPath] => descendant-or-self::html/body/div/div/
+                                                                        )
+
+                                                                    [1] => Array
+                                                                        (
+                                                                            [name] => div
+                                                                            [value] => 
+                                                                            [parent] => 
+                                                                            [tag] => div
+                                                                            [children] => Array
+                                                                                (
+                                                                                    [0] => Array
+                                                                                        (
+                                                                                            [name] => #text
+                                                                                            [value] => 
+                                                                                            [parent] => 
+                                                                                            [xPath] => descendant-or-self::html/body/div/div/div/
+                                                                                        )
+
+                                                                                )
+
+                                                                            [xPath] => descendant-or-self::html/body/div/div/div
+                                                                        )
+
+                                                                    [2] => Array
+                                                                        (
+                                                                            [name] => #text
+                                                                            [value] => 
+                                                                            [parent] => 
+                                                                            [xPath] => descendant-or-self::html/body/div/div/
+                                                                        )
+
+                                                                )
+
+                                                            [xPath] => descendant-or-self::html/body/div/div
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [name] => #text
+                                                            [value] => 
+                                                            [parent] => 
+                                                            [xPath] => descendant-or-self::html/body/div/
+                                                        )
+
+                                                )
+
+                                            [xPath] => descendant-or-self::html/body/div
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [name] => #text
+                                            [value] => 
+                                            [parent] => 
+                                            [xPath] => descendant-or-self::html/body/
+                                        )
+
+                                )
+
+                            [xPath] => descendant-or-self::html/body
+                        )
+
+                )
+
+            [xPath] => descendant-or-self::html
+        )
+
+)

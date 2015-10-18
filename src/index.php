@@ -6,6 +6,6 @@
 
 	use \Scraper\Controllers\Main as Main;
 
-	Main::exec( "http://www.google.it" );
+	Main::exec( "http://localhost:8000" );
 
 ?>
