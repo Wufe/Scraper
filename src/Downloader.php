@@ -1,7 +1,8 @@
 <?php
 
 	namespace Scraper;
-	use \GuzzleHttp\Client as Guzzle;
+	use \GuzzleHttp\Client  as Guzzle;
+	use \Scraper\Log 		as Log;
 
 	class Downloader{
 		
@@ -15,14 +16,16 @@
 					$res = $client->request( 'GET', $url, [ 'timeout' => 10, 'http_errors' => false ]);	
 				}catch( \GuzzleHttp\Exception\ConnectException $e ){
 					$error = "ConnectException: ".$e->getMessage();
+				}catch( \GuzzleHttp\Exception\RequestException $e ){
+					$error = "RequestException: ".$e->getMessage();
 				}
 				
 				$tries++;
 			}while( ( !$res || $res->getStatusCode() == 200 ) && $tries < 10 );
 			if( $res == null ){
-				echo $error.PHP_EOL;
+				Log::log( $error );
 			}
-			return $res != null ? $res->getBody() : null;
+			return $res != null ? $res->getBody() : false;
 		}
 
 	}

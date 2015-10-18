@@ -4,6 +4,8 @@
 
 	
 
-	$download = new \Scraper\Controllers\Download();
+	use \Scraper\Controllers\Main as Main;
+
+	Main::exec( "http://localhost:8000" );
 
 ?>

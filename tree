@@ -1,0 +1,1618 @@
+Array
+(
+    [0] => Array
+        (
+            [name] => html
+            [value] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+            [tag] => html
+            [parent] => DOMDocument Object
+                (
+                    [doctype] => (object value omitted)
+                    [implementation] => (object value omitted)
+                    [documentElement] => (object value omitted)
+                    [actualEncoding] => 
+                    [encoding] => 
+                    [xmlEncoding] => 
+                    [standalone] => 1
+                    [xmlStandalone] => 1
+                    [version] => 
+                    [xmlVersion] => 
+                    [strictErrorChecking] => 1
+                    [documentURI] => 
+                    [config] => 
+                    [formatOutput] => 
+                    [validateOnParse] => 1
+                    [resolveExternals] => 
+                    [preserveWhiteSpace] => 1
+                    [recover] => 
+                    [substituteEntities] => 
+                    [nodeName] => #document
+                    [nodeValue] => 
+                    [nodeType] => 13
+                    [parentNode] => 
+                    [childNodes] => (object value omitted)
+                    [firstChild] => (object value omitted)
+                    [lastChild] => (object value omitted)
+                    [previousSibling] => 
+                    [attributes] => 
+                    [ownerDocument] => 
+                    [namespaceURI] => 
+                    [prefix] => 
+                    [localName] => 
+                    [baseURI] => 
+                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                )
+
+            [children] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => head
+                            [value] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                            [tag] => head
+                            [parent] => DOMElement Object
+                                (
+                                    [tagName] => html
+                                    [schemaTypeInfo] => 
+                                    [nodeName] => html
+                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                    [nodeType] => 1
+                                    [parentNode] => (object value omitted)
+                                    [childNodes] => (object value omitted)
+                                    [firstChild] => (object value omitted)
+                                    [lastChild] => (object value omitted)
+                                    [previousSibling] => (object value omitted)
+                                    [attributes] => (object value omitted)
+                                    [ownerDocument] => (object value omitted)
+                                    [namespaceURI] => 
+                                    [prefix] => 
+                                    [localName] => html
+                                    [baseURI] => 
+                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                )
+
+                            [children] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [name] => title
+                                            [value] => 
+                                            [tag] => title
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [name] => script
+                                            [value] => 
+                                            [tag] => script
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [name] => link
+                                            [value] => 
+                                            [tag] => link
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [name] => style
+                                            [value] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                            [tag] => style
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => head
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => head
+                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => 
+                                                    [nextSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => head
+                                                    [baseURI] => 
+                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                )
+
+                                            [children] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => #cdata-section
+                                                            [value] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                            [tag] => 
+                                                            [parent] => DOMElement Object
+                                                                (
+                                                                    [tagName] => style
+                                                                    [schemaTypeInfo] => 
+                                                                    [nodeName] => style
+                                                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                                    [nodeType] => 1
+                                                                    [parentNode] => (object value omitted)
+                                                                    [childNodes] => (object value omitted)
+                                                                    [firstChild] => (object value omitted)
+                                                                    [lastChild] => (object value omitted)
+                                                                    [previousSibling] => (object value omitted)
+                                                                    [attributes] => (object value omitted)
+                                                                    [ownerDocument] => (object value omitted)
+                                                                    [namespaceURI] => 
+                                                                    [prefix] => 
+                                                                    [localName] => style
+                                                                    [baseURI] => 
+                                                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [name] => body
+                            [value] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                            [tag] => body
+                            [parent] => DOMElement Object
+                                (
+                                    [tagName] => html
+                                    [schemaTypeInfo] => 
+                                    [nodeName] => html
+                                    [nodeValue] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                    [nodeType] => 1
+                                    [parentNode] => (object value omitted)
+                                    [childNodes] => (object value omitted)
+                                    [firstChild] => (object value omitted)
+                                    [lastChild] => (object value omitted)
+                                    [previousSibling] => (object value omitted)
+                                    [attributes] => (object value omitted)
+                                    [ownerDocument] => (object value omitted)
+                                    [namespaceURI] => 
+                                    [prefix] => 
+                                    [localName] => html
+                                    [baseURI] => 
+                                    [textContent] => 
+		.panel-default{
+			margin: 10px;
+			box-sizing: border-box;
+		}
+	
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                )
+
+                            [children] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [name] => #text
+                                            [value] => 
+	
+                                            [tag] => 
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => body
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => body
+                                                    [nodeValue] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => body
+                                                    [baseURI] => 
+                                                    [textContent] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [name] => nav
+                                            [value] => Home
+							Archivio
+					
+                                            [tag] => nav
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => body
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => body
+                                                    [nodeValue] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => body
+                                                    [baseURI] => 
+                                                    [textContent] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                                )
+
+                                            [children] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => ul
+                                                            [value] => Home
+							Archivio
+					
+                                                            [tag] => ul
+                                                            [parent] => DOMElement Object
+                                                                (
+                                                                    [tagName] => nav
+                                                                    [schemaTypeInfo] => 
+                                                                    [nodeName] => nav
+                                                                    [nodeValue] => Home
+							Archivio
+					
+                                                                    [nodeType] => 1
+                                                                    [parentNode] => (object value omitted)
+                                                                    [childNodes] => (object value omitted)
+                                                                    [firstChild] => (object value omitted)
+                                                                    [lastChild] => (object value omitted)
+                                                                    [previousSibling] => (object value omitted)
+                                                                    [nextSibling] => (object value omitted)
+                                                                    [attributes] => (object value omitted)
+                                                                    [ownerDocument] => (object value omitted)
+                                                                    [namespaceURI] => 
+                                                                    [prefix] => 
+                                                                    [localName] => nav
+                                                                    [baseURI] => 
+                                                                    [textContent] => Home
+							Archivio
+					
+                                                                )
+
+                                                            [children] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [name] => li
+                                                                            [value] => Home
+                                                                            [tag] => li
+                                                                            [parent] => DOMElement Object
+                                                                                (
+                                                                                    [tagName] => ul
+                                                                                    [schemaTypeInfo] => 
+                                                                                    [nodeName] => ul
+                                                                                    [nodeValue] => Home
+							Archivio
+					
+                                                                                    [nodeType] => 1
+                                                                                    [parentNode] => (object value omitted)
+                                                                                    [childNodes] => (object value omitted)
+                                                                                    [firstChild] => (object value omitted)
+                                                                                    [lastChild] => (object value omitted)
+                                                                                    [previousSibling] => 
+                                                                                    [attributes] => (object value omitted)
+                                                                                    [ownerDocument] => (object value omitted)
+                                                                                    [namespaceURI] => 
+                                                                                    [prefix] => 
+                                                                                    [localName] => ul
+                                                                                    [baseURI] => 
+                                                                                    [textContent] => Home
+							Archivio
+					
+                                                                                )
+
+                                                                            [children] => Array
+                                                                                (
+                                                                                    [0] => Array
+                                                                                        (
+                                                                                            [name] => a
+                                                                                            [value] => Home
+                                                                                            [tag] => a
+                                                                                            [parent] => DOMElement Object
+                                                                                                (
+                                                                                                    [tagName] => li
+                                                                                                    [schemaTypeInfo] => 
+                                                                                                    [nodeName] => li
+                                                                                                    [nodeValue] => Home
+                                                                                                    [nodeType] => 1
+                                                                                                    [parentNode] => (object value omitted)
+                                                                                                    [childNodes] => (object value omitted)
+                                                                                                    [firstChild] => (object value omitted)
+                                                                                                    [lastChild] => (object value omitted)
+                                                                                                    [previousSibling] => 
+                                                                                                    [nextSibling] => (object value omitted)
+                                                                                                    [attributes] => (object value omitted)
+                                                                                                    [ownerDocument] => (object value omitted)
+                                                                                                    [namespaceURI] => 
+                                                                                                    [prefix] => 
+                                                                                                    [localName] => li
+                                                                                                    [baseURI] => 
+                                                                                                    [textContent] => Home
+                                                                                                )
+
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                    [0] => Array
+                                                                                                        (
+                                                                                                            [name] => #text
+                                                                                                            [value] => Home
+                                                                                                            [tag] => 
+                                                                                                            [parent] => DOMElement Object
+                                                                                                                (
+                                                                                                                    [tagName] => a
+                                                                                                                    [schemaTypeInfo] => 
+                                                                                                                    [nodeName] => a
+                                                                                                                    [nodeValue] => Home
+                                                                                                                    [nodeType] => 1
+                                                                                                                    [parentNode] => (object value omitted)
+                                                                                                                    [childNodes] => (object value omitted)
+                                                                                                                    [firstChild] => (object value omitted)
+                                                                                                                    [lastChild] => (object value omitted)
+                                                                                                                    [previousSibling] => 
+                                                                                                                    [attributes] => (object value omitted)
+                                                                                                                    [ownerDocument] => (object value omitted)
+                                                                                                                    [namespaceURI] => 
+                                                                                                                    [prefix] => 
+                                                                                                                    [localName] => a
+                                                                                                                    [baseURI] => 
+                                                                                                                    [textContent] => Home
+                                                                                                                )
+
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [1] => Array
+                                                                        (
+                                                                            [name] => #text
+                                                                            [value] => 
+							
+                                                                            [tag] => 
+                                                                            [parent] => DOMElement Object
+                                                                                (
+                                                                                    [tagName] => ul
+                                                                                    [schemaTypeInfo] => 
+                                                                                    [nodeName] => ul
+                                                                                    [nodeValue] => Home
+							Archivio
+					
+                                                                                    [nodeType] => 1
+                                                                                    [parentNode] => (object value omitted)
+                                                                                    [childNodes] => (object value omitted)
+                                                                                    [firstChild] => (object value omitted)
+                                                                                    [lastChild] => (object value omitted)
+                                                                                    [previousSibling] => 
+                                                                                    [attributes] => (object value omitted)
+                                                                                    [ownerDocument] => (object value omitted)
+                                                                                    [namespaceURI] => 
+                                                                                    [prefix] => 
+                                                                                    [localName] => ul
+                                                                                    [baseURI] => 
+                                                                                    [textContent] => Home
+							Archivio
+					
+                                                                                )
+
+                                                                        )
+
+                                                                    [2] => Array
+                                                                        (
+                                                                            [name] => li
+                                                                            [value] => Archivio
+                                                                            [tag] => li
+                                                                            [parent] => DOMElement Object
+                                                                                (
+                                                                                    [tagName] => ul
+                                                                                    [schemaTypeInfo] => 
+                                                                                    [nodeName] => ul
+                                                                                    [nodeValue] => Home
+							Archivio
+					
+                                                                                    [nodeType] => 1
+                                                                                    [parentNode] => (object value omitted)
+                                                                                    [childNodes] => (object value omitted)
+                                                                                    [firstChild] => (object value omitted)
+                                                                                    [lastChild] => (object value omitted)
+                                                                                    [previousSibling] => 
+                                                                                    [attributes] => (object value omitted)
+                                                                                    [ownerDocument] => (object value omitted)
+                                                                                    [namespaceURI] => 
+                                                                                    [prefix] => 
+                                                                                    [localName] => ul
+                                                                                    [baseURI] => 
+                                                                                    [textContent] => Home
+							Archivio
+					
+                                                                                )
+
+                                                                            [children] => Array
+                                                                                (
+                                                                                    [0] => Array
+                                                                                        (
+                                                                                            [name] => a
+                                                                                            [value] => Archivio
+                                                                                            [tag] => a
+                                                                                            [parent] => DOMElement Object
+                                                                                                (
+                                                                                                    [tagName] => li
+                                                                                                    [schemaTypeInfo] => 
+                                                                                                    [nodeName] => li
+                                                                                                    [nodeValue] => Archivio
+                                                                                                    [nodeType] => 1
+                                                                                                    [parentNode] => (object value omitted)
+                                                                                                    [childNodes] => (object value omitted)
+                                                                                                    [firstChild] => (object value omitted)
+                                                                                                    [lastChild] => (object value omitted)
+                                                                                                    [previousSibling] => (object value omitted)
+                                                                                                    [nextSibling] => (object value omitted)
+                                                                                                    [attributes] => (object value omitted)
+                                                                                                    [ownerDocument] => (object value omitted)
+                                                                                                    [namespaceURI] => 
+                                                                                                    [prefix] => 
+                                                                                                    [localName] => li
+                                                                                                    [baseURI] => 
+                                                                                                    [textContent] => Archivio
+                                                                                                )
+
+                                                                                            [children] => Array
+                                                                                                (
+                                                                                                    [0] => Array
+                                                                                                        (
+                                                                                                            [name] => #text
+                                                                                                            [value] => Archivio
+                                                                                                            [tag] => 
+                                                                                                            [parent] => DOMElement Object
+                                                                                                                (
+                                                                                                                    [tagName] => a
+                                                                                                                    [schemaTypeInfo] => 
+                                                                                                                    [nodeName] => a
+                                                                                                                    [nodeValue] => Archivio
+                                                                                                                    [nodeType] => 1
+                                                                                                                    [parentNode] => (object value omitted)
+                                                                                                                    [childNodes] => (object value omitted)
+                                                                                                                    [firstChild] => (object value omitted)
+                                                                                                                    [lastChild] => (object value omitted)
+                                                                                                                    [previousSibling] => 
+                                                                                                                    [attributes] => (object value omitted)
+                                                                                                                    [ownerDocument] => (object value omitted)
+                                                                                                                    [namespaceURI] => 
+                                                                                                                    [prefix] => 
+                                                                                                                    [localName] => a
+                                                                                                                    [baseURI] => 
+                                                                                                                    [textContent] => Archivio
+                                                                                                                )
+
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [3] => Array
+                                                                        (
+                                                                            [name] => #text
+                                                                            [value] => 
+					
+                                                                            [tag] => 
+                                                                            [parent] => DOMElement Object
+                                                                                (
+                                                                                    [tagName] => ul
+                                                                                    [schemaTypeInfo] => 
+                                                                                    [nodeName] => ul
+                                                                                    [nodeValue] => Home
+							Archivio
+					
+                                                                                    [nodeType] => 1
+                                                                                    [parentNode] => (object value omitted)
+                                                                                    [childNodes] => (object value omitted)
+                                                                                    [firstChild] => (object value omitted)
+                                                                                    [lastChild] => (object value omitted)
+                                                                                    [previousSibling] => 
+                                                                                    [attributes] => (object value omitted)
+                                                                                    [ownerDocument] => (object value omitted)
+                                                                                    [namespaceURI] => 
+                                                                                    [prefix] => 
+                                                                                    [localName] => ul
+                                                                                    [baseURI] => 
+                                                                                    [textContent] => Home
+							Archivio
+					
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [name] => div
+                                            [value] => 
+		
+			
+				
+
+			
+		
+	
+                                            [tag] => div
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => body
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => body
+                                                    [nodeValue] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => body
+                                                    [baseURI] => 
+                                                    [textContent] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                                )
+
+                                            [children] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => #text
+                                                            [value] => 
+		
+                                                            [tag] => 
+                                                            [parent] => DOMElement Object
+                                                                (
+                                                                    [tagName] => div
+                                                                    [schemaTypeInfo] => 
+                                                                    [nodeName] => div
+                                                                    [nodeValue] => 
+		
+			
+				
+
+			
+		
+	
+                                                                    [nodeType] => 1
+                                                                    [parentNode] => (object value omitted)
+                                                                    [childNodes] => (object value omitted)
+                                                                    [firstChild] => (object value omitted)
+                                                                    [lastChild] => (object value omitted)
+                                                                    [previousSibling] => (object value omitted)
+                                                                    [nextSibling] => (object value omitted)
+                                                                    [attributes] => (object value omitted)
+                                                                    [ownerDocument] => (object value omitted)
+                                                                    [namespaceURI] => 
+                                                                    [prefix] => 
+                                                                    [localName] => div
+                                                                    [baseURI] => 
+                                                                    [textContent] => 
+		
+			
+				
+
+			
+		
+	
+                                                                )
+
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [name] => div
+                                                            [value] => 
+			
+				
+
+			
+		
+                                                            [tag] => div
+                                                            [parent] => DOMElement Object
+                                                                (
+                                                                    [tagName] => div
+                                                                    [schemaTypeInfo] => 
+                                                                    [nodeName] => div
+                                                                    [nodeValue] => 
+		
+			
+				
+
+			
+		
+	
+                                                                    [nodeType] => 1
+                                                                    [parentNode] => (object value omitted)
+                                                                    [childNodes] => (object value omitted)
+                                                                    [firstChild] => (object value omitted)
+                                                                    [lastChild] => (object value omitted)
+                                                                    [previousSibling] => (object value omitted)
+                                                                    [nextSibling] => (object value omitted)
+                                                                    [attributes] => (object value omitted)
+                                                                    [ownerDocument] => (object value omitted)
+                                                                    [namespaceURI] => 
+                                                                    [prefix] => 
+                                                                    [localName] => div
+                                                                    [baseURI] => 
+                                                                    [textContent] => 
+		
+			
+				
+
+			
+		
+	
+                                                                )
+
+                                                            [children] => Array
+                                                                (
+                                                                    [0] => Array
+                                                                        (
+                                                                            [name] => #text
+                                                                            [value] => 
+			
+                                                                            [tag] => 
+                                                                            [parent] => DOMElement Object
+                                                                                (
+                                                                                    [tagName] => div
+                                                                                    [schemaTypeInfo] => 
+                                                                                    [nodeName] => div
+                                                                                    [nodeValue] => 
+			
+				
+
+			
+		
+                                                                                    [nodeType] => 1
+                                                                                    [parentNode] => (object value omitted)
+                                                                                    [childNodes] => (object value omitted)
+                                                                                    [firstChild] => (object value omitted)
+                                                                                    [lastChild] => (object value omitted)
+                                                                                    [previousSibling] => (object value omitted)
+                                                                                    [nextSibling] => (object value omitted)
+                                                                                    [attributes] => (object value omitted)
+                                                                                    [ownerDocument] => (object value omitted)
+                                                                                    [namespaceURI] => 
+                                                                                    [prefix] => 
+                                                                                    [localName] => div
+                                                                                    [baseURI] => 
+                                                                                    [textContent] => 
+			
+				
+
+			
+		
+                                                                                )
+
+                                                                        )
+
+                                                                    [1] => Array
+                                                                        (
+                                                                            [name] => div
+                                                                            [value] => 
+				
+
+			
+                                                                            [tag] => div
+                                                                            [parent] => DOMElement Object
+                                                                                (
+                                                                                    [tagName] => div
+                                                                                    [schemaTypeInfo] => 
+                                                                                    [nodeName] => div
+                                                                                    [nodeValue] => 
+			
+				
+
+			
+		
+                                                                                    [nodeType] => 1
+                                                                                    [parentNode] => (object value omitted)
+                                                                                    [childNodes] => (object value omitted)
+                                                                                    [firstChild] => (object value omitted)
+                                                                                    [lastChild] => (object value omitted)
+                                                                                    [previousSibling] => (object value omitted)
+                                                                                    [nextSibling] => (object value omitted)
+                                                                                    [attributes] => (object value omitted)
+                                                                                    [ownerDocument] => (object value omitted)
+                                                                                    [namespaceURI] => 
+                                                                                    [prefix] => 
+                                                                                    [localName] => div
+                                                                                    [baseURI] => 
+                                                                                    [textContent] => 
+			
+				
+
+			
+		
+                                                                                )
+
+                                                                            [children] => Array
+                                                                                (
+                                                                                    [0] => Array
+                                                                                        (
+                                                                                            [name] => #text
+                                                                                            [value] => 
+				
+
+			
+                                                                                            [tag] => 
+                                                                                            [parent] => DOMElement Object
+                                                                                                (
+                                                                                                    [tagName] => div
+                                                                                                    [schemaTypeInfo] => 
+                                                                                                    [nodeName] => div
+                                                                                                    [nodeValue] => 
+				
+
+			
+                                                                                                    [nodeType] => 1
+                                                                                                    [parentNode] => (object value omitted)
+                                                                                                    [childNodes] => (object value omitted)
+                                                                                                    [firstChild] => (object value omitted)
+                                                                                                    [lastChild] => (object value omitted)
+                                                                                                    [previousSibling] => (object value omitted)
+                                                                                                    [nextSibling] => (object value omitted)
+                                                                                                    [attributes] => (object value omitted)
+                                                                                                    [ownerDocument] => (object value omitted)
+                                                                                                    [namespaceURI] => 
+                                                                                                    [prefix] => 
+                                                                                                    [localName] => div
+                                                                                                    [baseURI] => 
+                                                                                                    [textContent] => 
+				
+
+			
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [2] => Array
+                                                                        (
+                                                                            [name] => #text
+                                                                            [value] => 
+		
+                                                                            [tag] => 
+                                                                            [parent] => DOMElement Object
+                                                                                (
+                                                                                    [tagName] => div
+                                                                                    [schemaTypeInfo] => 
+                                                                                    [nodeName] => div
+                                                                                    [nodeValue] => 
+			
+				
+
+			
+		
+                                                                                    [nodeType] => 1
+                                                                                    [parentNode] => (object value omitted)
+                                                                                    [childNodes] => (object value omitted)
+                                                                                    [firstChild] => (object value omitted)
+                                                                                    [lastChild] => (object value omitted)
+                                                                                    [previousSibling] => (object value omitted)
+                                                                                    [nextSibling] => (object value omitted)
+                                                                                    [attributes] => (object value omitted)
+                                                                                    [ownerDocument] => (object value omitted)
+                                                                                    [namespaceURI] => 
+                                                                                    [prefix] => 
+                                                                                    [localName] => div
+                                                                                    [baseURI] => 
+                                                                                    [textContent] => 
+			
+				
+
+			
+		
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [name] => #text
+                                                            [value] => 
+	
+                                                            [tag] => 
+                                                            [parent] => DOMElement Object
+                                                                (
+                                                                    [tagName] => div
+                                                                    [schemaTypeInfo] => 
+                                                                    [nodeName] => div
+                                                                    [nodeValue] => 
+		
+			
+				
+
+			
+		
+	
+                                                                    [nodeType] => 1
+                                                                    [parentNode] => (object value omitted)
+                                                                    [childNodes] => (object value omitted)
+                                                                    [firstChild] => (object value omitted)
+                                                                    [lastChild] => (object value omitted)
+                                                                    [previousSibling] => (object value omitted)
+                                                                    [nextSibling] => (object value omitted)
+                                                                    [attributes] => (object value omitted)
+                                                                    [ownerDocument] => (object value omitted)
+                                                                    [namespaceURI] => 
+                                                                    [prefix] => 
+                                                                    [localName] => div
+                                                                    [baseURI] => 
+                                                                    [textContent] => 
+		
+			
+				
+
+			
+		
+	
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [name] => #text
+                                            [value] => 
+
+
+	
+
+                                            [tag] => 
+                                            [parent] => DOMElement Object
+                                                (
+                                                    [tagName] => body
+                                                    [schemaTypeInfo] => 
+                                                    [nodeName] => body
+                                                    [nodeValue] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                                    [nodeType] => 1
+                                                    [parentNode] => (object value omitted)
+                                                    [childNodes] => (object value omitted)
+                                                    [firstChild] => (object value omitted)
+                                                    [lastChild] => (object value omitted)
+                                                    [previousSibling] => (object value omitted)
+                                                    [attributes] => (object value omitted)
+                                                    [ownerDocument] => (object value omitted)
+                                                    [namespaceURI] => 
+                                                    [prefix] => 
+                                                    [localName] => body
+                                                    [baseURI] => 
+                                                    [textContent] => 
+	Home
+							Archivio
+					
+		
+			
+				
+
+			
+		
+	
+
+
+	
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
