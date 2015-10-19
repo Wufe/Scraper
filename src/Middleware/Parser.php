@@ -53,7 +53,7 @@
 						}
 						$log_string .= str_repeat( "-", 4 ).$nodeName;
 					}
-					$log_string .= $myPath != "" ? ( " [ ".$myPath." ]" ) : "";
+					//$log_string .= $myPath != "" ? ( " [ ".$myPath." ]" ) : "";
 					Log::log( $log_string );
 
 					$node_obj = [ 

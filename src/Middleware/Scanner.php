@@ -8,13 +8,22 @@
 
 	class Scanner{
 
+		public static $been_prioritized = [];
+
 		// This function will look for pattern
 		public static function scan( $node ){
-			$leaves = Scanner::scan_for_leaves( $node );
-			$priority = [];
-			foreach( $leaves as $leaf ){
-				$priority = array_merge( $priority, Scanner::scan_for_pattern( $node, $leaf, $priority ) );
+			$priority = Scanner::scan_for_pattern( $node );
+
+			// Readable test
+			$prio = [];
+			foreach( $priority as $node ){
+				unset( $node[ 'children' ] );
+				$prio[] = $node;
 			}
+			$priority = $prio;
+			// End readable test
+
+			// Test
 			file_put_contents( "priority", print_r( $priority, true ) );
 		}
 
@@ -59,33 +68,46 @@
 		}
 
 		// This function will scan for pattern
-		public static function scan_for_pattern( $root, $node, $priority ){
-			// Add in priority only if not a child on an existent 
-			// and only if the parent is not empty
-			if( @!!$node[ 'leaf_identified_by' ] ){
-				return Scanner::scan_for_pattern( $root, Tree::get_parent_from_path( $root, $node[ 'path' ] ), $priority );
-			}else if( $node[ 'path' ] == "" ){
-				return $priority;
-			}else{
-				$parent = Tree::get_parent_from_path( $root, $node[ 'path' ] );
-				$siblings_and_self = Tree::get_children( $parent );
-				if( Scanner::are_eligible( $siblings_and_self ) ){
-					$priority[] = $parent;
+		public static function scan_for_pattern( $root, $node = "", $priority = [] ){
+			if( @!$node )$node = $root;
+			$children = Tree::get_tagged_children( $node );
+			if( @!!$children ){
+				if( Scanner::are_eligible( $children ) && !Scanner::has_been_prioritized( $node[ 'path' ] ) ){
+					$priority[] = $node;
+					Scanner::$been_prioritized[] = $node[ 'path' ];
 				}
-				return Scanner::scan_for_pattern( $root, $parent, $priority );
+				foreach( $children as $child ){
+					$priority = Scanner::scan_for_pattern( $root, $child, $priority );
+				}
+				
 			}
+			return $priority;
 		}
 
-		// Checks that some children are eligible to become the important pattern
+		// Checks that a group of children are eligible to become the important pattern
 		public static function are_eligible( $nodes ){
 			$same = true;
 			$image = $nodes[ 0 ][ 'components' ];
-			foreach( $nodes as $node ){
-				if( $node[ 'components' ] != $image ){
-					$same = false;
+			if( count( $nodes ) > 1 ){ // to chose
+				foreach( $nodes as $node ){
+					if( $node[ 'components' ] != $image ){
+						$same = false;
+					}
 				}
+			}else{
+				$same = false;
 			}
 			return $same;
+		}
+
+		public static function has_been_prioritized( $path ){
+			$found = false;
+			foreach( Scanner::$been_prioritized as $prioritized ){
+				if( $prioritized == $path ){
+					$found = true;
+				}
+			}
+			return $found;
 		}
 
 	}

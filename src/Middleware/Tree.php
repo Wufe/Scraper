@@ -47,6 +47,18 @@
 			return @!!$node[ 'children' ] ? $node[ 'children' ] : false;
 		}
 
+		public static function get_tagged_children( $node ){
+			$list = [];
+			if( @!!$node[ 'children' ] ){
+				foreach( $node[ 'children' ] as $child ){
+					if( @!!$child[ 'tag' ] ){
+						$list[] = $child;
+					}
+				}
+			}
+			return $list;
+		}
+
 	}
 
 ?>
