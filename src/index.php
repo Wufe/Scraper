@@ -6,6 +6,6 @@
 
 	use \Scraper\Controllers\Main as Main;
 
-	Main::exec( "http://www.agiellenews.it/archivio/" );
+	Main::exec( "http://www.amazon.it/registry/wishlist/1DUNHOTCJQGBN" );
 
 ?>

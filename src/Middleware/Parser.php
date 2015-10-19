@@ -6,7 +6,7 @@
 	class Parser{
 
 		// Parse a node and its attributes, downward, recursively
-		public static function parse( $node, $deep = 0, $xPath = "" ){
+		public static function parse( $node, $deep = 0, $xPath = "", $verbose = false ){
 			$ret_obj = [];
 			$spaces = str_repeat( " ", $deep * 5 );
 			$count = count( $node );
@@ -22,6 +22,12 @@
 					$nodeValue 	= $domElement->nodeValue;
 					$tagName 	= isset( $domElement->tagName ) ? $domElement->tagName : false;
 					$parentNode = $domElement->parentNode;
+
+					$was_verbose = $verbose;
+
+					if( Parser::get_id( $domElement ) == "g-items-atf" ){
+						//$verbose = true;
+					}
 
 					// Generation of an absolute xPath
 					$myPath = "";
@@ -53,20 +59,23 @@
 						}
 						$log_string .= str_repeat( "-", 4 ).$nodeName;
 					}
-					//$log_string .= $myPath != "" ? ( " [ ".$myPath." ]" ) : "";
-					Log::log( $log_string );
+					if( get_class( $domElement ) == "DOMElement" && @!!$domElement->getAttribute( 'id' ) ){
+						$log_string .= "[#".$domElement->getAttribute( 'id' )."]";	
+					}
+					//$log_string .= "[".get_class( $domElement )."]";
+					if( $verbose )Log::log( $log_string );
 
 					$node_obj = [ 
 						'name' 		=> $nodeName,
 						'value' 	=> "",//$nodeValue,
 						'parent'	=> "",//$parentNode,
-						'node' 		=> ""//$domElement
+						'node' 		=> $domElement
 					];
 					if( $tagName !== false ){
 						$node_obj[ 'tag' ] = $tagName;
 					}
 					
-					$children 	= Parser::parse( $domElement->childNodes, $deep+1, $myPath );
+					$children 	= Parser::parse( $domElement->childNodes, $deep+1, $myPath, $verbose );
 					if( !!$children ){
 						$node_obj[ 'children' ] = $children;
 					}
@@ -103,15 +112,16 @@
 		// sum of the components which root is the node
 		public static function get_components( $node ){;
 			if( @!$node[ 'tag' ] ){
-				$ret_val = "[".$node[ 'name' ]."]";
+				$ret_val = "";//"[".$node[ 'name' ]."]";
 			}else if( @!$node[ 'children' ] ){
-				$ret_val = "[".$node[ 'name' ]."]";
+				$ret_val = $node[ 'name' ];
 			}else{
 				$nodes = [];
 				foreach( $node[ 'children' ] as $child ){
-					$nodes[] = Parser::get_components( $child );
+					$components = Parser::get_components( $child );
+					if( @!!$components )$nodes[] = $components;
 				}
-				$result = $node[ 'tag' ]."[".implode( "+", $nodes )."]";
+				$result = $node[ 'tag' ].( @!!$nodes ? ( "[".implode( "+", $nodes )."]" ) : "" );
 				$ret_val = $result;
 			}
 			return $ret_val;
@@ -175,6 +185,14 @@
 				}
 				
 			}
+		}
+
+		public static function get_id( $node ){
+			$ret_val = false;
+			if( get_class( $node ) == "DOMElement" && !!$node->getAttribute( 'id' ) ){
+				$ret_val = $node->getAttribute( 'id' );
+			}
+			return $ret_val;
 		}
 
 	}
