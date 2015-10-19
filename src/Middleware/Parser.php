@@ -59,7 +59,8 @@
 					$node_obj = [ 
 						'name' 		=> $nodeName,
 						'value' 	=> "",//$nodeValue,
-						'parent'	=> "",//$parentNode
+						'parent'	=> "",//$parentNode,
+						'node' 		=> ""//$domElement
 					];
 					if( $tagName !== false ){
 						$node_obj[ 'tag' ] = $tagName;
@@ -98,6 +99,8 @@
 			
 		}
 
+		// here we get the components of the node, otherwise known as the string the has the
+		// sum of the components which root is the node
 		public static function get_components( $node ){;
 			if( @!$node[ 'tag' ] ){
 				$ret_val = "[".$node[ 'name' ]."]";
@@ -136,6 +139,7 @@
 			}
 		}
 
+		// get the amount of tags of the same kind, on the same level
 		public static function tags_count( $node, $tag ){
 			if( count( $node ) > 0 ){
 				$count = 0;
@@ -147,6 +151,29 @@
 				return $count++;
 			}else{
 				return 0;
+			}
+		}
+
+		public static function identify_parent_path( $node, $path = "" ){
+			$node[ 'path' ] = $path;
+			if( @!$node[ 'tag' ] ){
+				return $node;
+			}else{
+				if( @!!$node[ 'children' ] ){
+					$new_children = [];
+					$count = 0;
+					foreach( $node[ 'children' ] as $child ){
+						$new_path = $path.( $path == "" ? "" : "," ).$count;
+						$new_children[] = Parser::identify_parent_path( $child, $new_path );
+						$count++;
+					}
+					unset( $node[ 'children' ] );
+					$node[ 'children' ] = $new_children;
+					return $node;
+				}else{
+					return $node;
+				}
+				
 			}
 		}
 
