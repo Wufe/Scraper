@@ -5,6 +5,8 @@
 	use Scraper\Middleware\Log;
 	use Scraper\Middleware\Crawler;
 	use Scraper\Middleware\Tree;
+	use Scraper\Middleware\Filter;
+	use Scraper\Middleware\Tweakers\Generic as Tweaker;
 
 	class Scanner{
 
@@ -12,7 +14,14 @@
 
 		// This function will look for pattern
 		public static function scan( $node ){
+
+			// The tweaker has to be applied BEFORE the scan
+			Tweaker::apply();
+
 			$priority = Scanner::scan_for_pattern( $node );
+
+			Log::log( "Tweaking results.." );
+			//$priority = Tweaker::apply( $priority );
 
 			// Readable test
 			$prio = [];
@@ -74,11 +83,19 @@
 			if( @!$node )$node = $root;
 			$children = Tree::get_tagged_children( $node );
 			if( @!!$children ){
-				if( Scanner::are_eligible( $children ) && !Scanner::has_been_prioritized( $node[ 'path' ] ) ){
+				if( Node::get_class( $node ) == "posts-list-inner" ){
+					//$elig = Scanner::are_eligible( $root, $node, $children );
+					//Log::log( "Children count is ".count( $children )." ".( $elig ? "and" : "but" )." they are ".( $elig ? "" : "not" )." eligible." );
+				}
+				if( Scanner::are_eligible( $root, $node, $children ) && !Scanner::has_been_prioritized( $node[ 'path' ] ) ){
 					$node[ 'count' ] = count( $children );
-					$id = Scanner::get_id( $node );
+					$id = Node::get_id( $node );
 					if( $id !== false ){
-						$node[ 'identifier' ] = "#".$id;
+						$node[ 'id' ] = "#".$id;
+					}
+					$class = Node::get_class( $node );
+					if( $class !== false ){
+						$node[ 'class' ] = ".".$class;
 					}
 					
 					$priority[] = $node;
@@ -93,29 +110,80 @@
 		}
 
 		// Checks that a group of children are eligible to become the important pattern
-		public static function are_eligible( $nodes ){
-			$main_wrap = [];
+
+		// We need to add another check: check if children are of the same class
+		public static function are_eligible( $root, $parent, $nodes ){
+
+			//New methods
+
+			// Here we are registering properties that we are going to filter
+			Filter::register_identifier( "\Scraper\Middleware\Node", "get_id", "id" );
+			Filter::register_identifier( "\Scraper\Middleware\Node", "get_class", "class" );
+			Filter::register_identifier( "\Scraper\Middleware\Node", "get_components", "components" );
+
+			Filter::register_filter( "\Scraper\Middleware\Filters\Depth", "check_depth", "depth", "*" );
+
+
+
+
+			return Filter::filter( $root, $parent, $nodes );
+
+
+
+
+
+			/*$main_wrap = [];
+			// Need to add a blacklist of children node that are not eligible, like <script>
+			$parent_tag = Tree::get_parent_from_path( $root, $nodes[ 0 ][ 'path' ] )[ 'tag' ];
+
+			//test thing
+			$isObject = Node::get_class( Tree::get_parent_from_path( $root, $nodes[ 0 ][ 'path' ] ) ) == "posts-list-inner";
+			$isObject = false;
+			
 			foreach( $nodes as $node ){
-				$found = -1;
+				$found1 = -1;
+				$found2 = -1;
+				$class = Node::get_class( $node );
 				for( $i = 0; $i < count( $main_wrap ); $i++ ){
+					
 					if( $main_wrap[ $i ][ 'pattern' ] == $node[ 'components' ] ){
-						$found = $i;
+						$found1 = $i;
+					}
+					if( @!!$class && $main_wrap[ $i ][ 'pattern' ] == $class ){
+						$found2 = $i;
 					}
 				}
-				if( $found > -1 ){
-					$main_wrap[ $found ][ 'nodes' ][] = $node;
+				if( $found1 > -1 ){
+					$main_wrap[ $found1 ][ 'nodes' ][] = $node;
 				}else{
-					$main_wrap[] = [ 'pattern' => $node[ 'components' ], 'nodes' => [] ];
+					if( $isObject ){
+						Log::log( $node[ 'components' ] );
+					}
+					$main_wrap[] = [ 'pattern' => $node[ 'components' ], 'nodes' => $node ];
+				}
+				if( $found2 > -1 ){
+					$main_wrap[ $found2 ][ 'nodes' ][] = $node;
+				}else{
+					$main_wrap[] = [ 'pattern' => $class, 'nodes' => $node ];
 				}
 			}
 			$enough = false;
+
+			$prints = [];
+
 			foreach( $main_wrap as $obj ){
 				if( count( $obj[ 'nodes' ] ) > 3 ){
-					//Log::log( "There are ".count( $obj[ 'nodes' ] )." with the pattern <".$obj[ 'pattern' ].">" );
+					$prints[] = "There are ".count( $obj[ 'nodes' ] )." with the pattern <".$obj[ 'pattern' ].">";
 					$enough = true;
 				}
 			}
-			return $enough;
+			if( $isObject ){
+				Log::log( "Eligible children for node [".$parent_tag."]:" );
+				foreach( $prints as $print ){
+					Log::log( "\t".$print );
+				}
+			}
+			return $enough;*/
 		}
 
 		public static function has_been_prioritized( $path ){
@@ -129,13 +197,7 @@
 		}
 
 
-		public static function get_id( $node ){
-			$ret_val = false;
-			if( get_class( $node[ 'node' ] ) == "DOMElement" && !!$node[ 'node' ]->getAttribute( 'id' ) ){
-				$ret_val = $node[ 'node' ]->getAttribute( 'id' );
-			}
-			return $ret_val;
-		}
+		
 
 	}
 

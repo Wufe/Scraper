@@ -12,7 +12,7 @@
 		public static function crawl( $source ){
 			$crawler = new DomCrawler( $source );
 			Log::log( "Generating tree.." );
-			$node_tree 		= Parser::parse( $crawler );
+			$node_tree 		= Parser::parse( $crawler, 0, "", false );
 			Log::log( "Calculating components.." );
 			$augmented_tree	= Parser::augment( $node_tree[ 0 ] );
 			Log::log( "Calculating path.." );
