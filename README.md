@@ -37,3 +37,7 @@ Its main purpose is to choose a threshold for the identification of the results.
 #
 
 The ( raw & messy ) results are stored ( for now ) in a file called "priority", after the execution of the code
+
+## Screenshot
+
+![Screenshot](https://dl.dropboxusercontent.com/u/39582350/first-dev-result.png)
