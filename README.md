@@ -9,6 +9,7 @@ For now, the main purpose is to locate the main content of a web page
 
 To start:
 ```shell
+composer install
 php src/index.php
 ```
 
